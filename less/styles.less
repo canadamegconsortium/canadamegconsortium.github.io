@@ -553,6 +553,25 @@ html, body {
     color: white;
   }
 }
+.team-item-contact__link_cmc {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-top: @line-height-computed*0.2;
+  margin-bottom: @line-height-computed*0.2;
+  border-radius: @border-radius-small @border-radius-small @border-radius-small @border-radius-small;
+  text-align: center;
+  line-height: @line-height-computed*1.6;
+  background-color: #eee;
+  color: @text-color;
+  text-decoration: none;
+  .transition(all .15s);
+
+  &:hover, &:focus {
+    background: @brand-primary;
+    color: white;
+  }
+}
 .team-item-contact__link_facebook {
   border-left: 1px solid white;
   border-radius: 0 @border-radius-small @border-radius-small 0;
